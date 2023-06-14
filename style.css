@@ -1,0 +1,144 @@
+header {
+    color: rgb(218, 13, 218);
+    font-size: x-large;
+}
+h1 {
+    color: rgb(218, 13, 218);
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    color: rgb(218, 13, 218);
+    font-family:Arial, Helvetica, sans-serif
+}
+h3 {
+    color: rgb(218, 13, 218);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mePicture {
+    height: 25vh;
+    width: 15vw;
+}
+.aboutMe {
+    color: rgb(218, 13, 218);
+    width: 25vw;
+    font-size: larger;
+    font-weight: bold;
+    margin: auto;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.name {
+    font-style: italic;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    border:2px solid rgb(218, 13, 218);
+    color: rgb(218, 13, 218);
+    width: 15vw;
+    padding: 5px 20px;
+    margin: auto;
+}
+.phone {
+    font-style: italic;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    border:2px solid rgb(218, 13, 218);
+    color: rgb(218, 13, 218);
+    width: 13vw;
+    padding: 5px 20px;
+    margin: auto;
+}
+.container {
+    display: grid;
+    grid-gap: 15px 20px;
+    grid-template-columns: 300px 300px 300px 300px;
+    margin: 2rem auto;
+    width: 1000px;
+}
+.container2 {
+    display: flex;
+    
+}
+.grid-item {
+    text-align: center;
+    background-color: rgb(218, 13, 218);
+    border-radius: 7px;
+    color: black;
+    font: 700 15px 'Open Sans';
+    padding: 11px;
+}
+.grid-item2 {
+    text-align: center;
+    background-color: rgb(218, 13, 218);
+    border-radius: 7px;
+    color: black;
+    font: 700 15px 'Open Sans';
+    padding: 11px;
+    margin: auto;
+}
+.HTML {
+    height: 10vh;
+}
+.CSS2 {
+    height: 10vh;
+}
+.Java {
+    height: 10vh;
+}
+.Python {
+    height: 10vh;
+}
+article {
+    color:black;
+    text-align: center;
+    padding: 5px 20px;
+}
+article a {
+    display: inline-block;
+    background-color: rgb(218, 13, 218);
+    padding: 5px 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+article a :hover {
+    background-color:rgb(102, 9, 102);
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 10px;
+    width: 60px
+}
+nav {
+    
+    color:black;
+    text-align: center;
+    padding: 5px 20px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    background-color: rgb(218, 13, 218);
+    padding: 5px 20px;
+    border-radius: 10px;
+    width: 100px;
+}
+nav ul li :hover {
+    background-color:rgb(102, 9, 102);;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 10px;
+    width: 90px  
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+footer {
+    background-color: black;
+    color:rgb(218, 13, 218);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 29vw;
+}
