@@ -1,3 +1,10 @@
+body {
+    background-image: url("Synthwave_4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+}
 header {
     color: rgb(218, 13, 218);
     font-size: x-large;
@@ -6,13 +13,9 @@ h1 {
     color: rgb(218, 13, 218);
     font-family: 'Courier New', Courier, monospace;
 }
-h2 {
+h2, h3 {
     color: rgb(218, 13, 218);
     font-family:Arial, Helvetica, sans-serif
-}
-h3 {
-    color: rgb(218, 13, 218);
-    font-family: Arial, Helvetica, sans-serif;
 }
 .mePicture {
     height: 25vh;
@@ -29,23 +32,13 @@ p {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
-.name {
+.name, .phone {
     font-style: italic;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     border:2px solid rgb(218, 13, 218);
     color: rgb(218, 13, 218);
     width: 15vw;
-    padding: 5px 20px;
-    margin: auto;
-}
-.phone {
-    font-style: italic;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    border:2px solid rgb(218, 13, 218);
-    color: rgb(218, 13, 218);
-    width: 13vw;
     padding: 5px 20px;
     margin: auto;
 }
@@ -77,16 +70,7 @@ p {
     padding: 11px;
     margin: auto;
 }
-.HTML {
-    height: 10vh;
-}
-.CSS2 {
-    height: 10vh;
-}
-.Java {
-    height: 10vh;
-}
-.Python {
+.HTML, .CSS2, .Java, .Python {
     height: 10vh;
 }
 article {
