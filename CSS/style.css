@@ -5,70 +5,88 @@ body {
     background-size: 100% 100%;
     text-align: center;
 }
+
 header {
-    color: rgb(218, 13, 218);
+    color: #fff;
     font-size: x-large;
 }
+
 h1 {
-    color: rgb(218, 13, 218);
+    color:#fff;
     font-family: 'Courier New', Courier, monospace;
 }
+
 h2, h3 {
-    color: rgb(218, 13, 218);
+    color:#fff;
     font-family:Arial, Helvetica, sans-serif
 }
+
 .mePicture {
     height: 25vh;
     width: 15vw;
 }
+
 .aboutMe {
-    color: rgb(218, 13, 218);
-    width: 25vw;
+    color:#fff;
+    text-shadow: 0 4 black, 0 -4 black, 4 0 black;
+    width: 35vw;
     font-size: larger;
     font-weight: bold;
     margin: auto;
 }
+
 p {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
-.name, .phone {
+
+.email, .phone {
     font-style: italic;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
-    border:2px solid rgb(218, 13, 218);
-    color: rgb(218, 13, 218);
+    border:3px solid #fff;
+    color:#fff;
     width: 15vw;
     padding: 5px 20px;
     margin: auto;
 }
-.container {
-    display: grid;
-    grid-gap: 15px 20px;
-    grid-template-columns: 300px 300px 300px 300px;
-    margin: 2rem auto;
-    width: 1000px;
+
+.skillLbl {
+    color: #fff;
+    display: inline-block;
+    background-color: rgb(218, 13, 218);
+    border-radius: 7px;
+    padding: 11px;
 }
+
 .container2 {
-    display: flex;
+    display:inline;
+    width: 25%;
+    height: 25%;
     
 }
+
+.JS, .spring {
+    height: 29.5vh;
+}
+
 .grid-item {
     text-align: center;
     background-color: rgb(218, 13, 218);
     border-radius: 7px;
-    color: black;
+    color: #fff;
     font: 700 15px 'Open Sans';
     padding: 11px;
 }
-.grid-item2 {
+.langLbl {
     text-align: center;
     background-color: rgb(218, 13, 218);
     border-radius: 7px;
-    color: black;
-    font: 700 15px 'Open Sans';
+    color:#fff;
+    font: 15px 'Open Sans';
     padding: 11px;
-    margin: auto;
+
+    width: 25%;
 }
 .HTML, .CSS2, .Java, .Python {
     height: 10vh;
@@ -104,20 +122,22 @@ nav ul {
 nav ul li {
     display: inline-block;
     background-color: rgb(218, 13, 218);
+    color: #fff;
     padding: 5px 20px;
     border-radius: 10px;
     width: 100px;
 }
 nav ul li :hover {
-    background-color:rgb(102, 9, 102);;
+    background-color:rgb(102, 9, 102);
+    color: #fff;
     display: inline-block;
     padding: 5px 20px;
     border-radius: 10px;
-    width: 90px  
+    width: 90px; 
 }
 nav a {
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 footer {
     background-color: black;
